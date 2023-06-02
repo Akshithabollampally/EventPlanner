@@ -20,7 +20,7 @@ const userRoutes = require('./routes/users');
 const centreRoutes = require('./routes/centres');
 const reviewRoutes = require('./routes/reviews');
 
-const dbUrl = 'mongodb://127.0.0.1:27017/STUDENTS'
+const dbUrl = process.env.MONGODB_URI
 // process.env.DB_URL
 
 // 'mongodb://127.0.0.1:27017/STUDENTS'
