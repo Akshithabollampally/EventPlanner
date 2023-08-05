@@ -25,7 +25,7 @@ module.exports.createCentre = async (req, res, next) => {
     centre.author = req.user._id;
     await centre.save();
     console.log(centre);
-    req.flash('success', 'Successfully made a new centre!');
+    req.flash('success', 'Successfully made a new Event!');
     res.redirect(`/centres/${centre._id}`)
 }
 
