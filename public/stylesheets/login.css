@@ -5,8 +5,8 @@
 :root {
 	/*========== Colors ==========*/
 	/*Color mode HSL(hue, saturation, lightness)*/
-	--first-color: #bd1a89;
-	--second-color: #843090;
+	--first-color: #e4b415;
+	--second-color: #E1AD21;
 	--title-color: rgba(255, 255, 255, 0.9);
 	--text-color: rgba(255, 255, 255, 0.7);
 	--body-color: #01001f;
@@ -202,7 +202,7 @@ img {
 	color: #fff;
 	font-size: var(--small-font-size);
 	font-weight: var(--font-semi-bold);
-	box-shadow: 0 6px 24px hsla(244, 75%, 48%, 0.5);
+	box-shadow: 0 6px 24px hsla(57, 75%, 48%, 0.5);
 	margin-bottom: 1rem;
 	cursor: pointer;
 }
